@@ -4,8 +4,8 @@ import '../styles/components/about.css';
 
 const skills = [
   { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'React', 'Responsive Design'] },
-  { category: 'Backend', items: ['Node.js', 'Express', 'RESTful APIs'] },
-  { category: 'Tools & Others', items: ['Git', 'GitHub', 'VS Code', 'Command Line', 'Agile/Scrum'] }
+  { category: 'Backend', items: ['Node.js', 'Express', 'RESTful APIs', 'AWS', 'Firebase', 'SQLite', 'NoSQL'] },
+  { category: 'Tools & Others', items: ['Git', 'GitHub', 'VS Code', 'Command Line', 'Cline', 'Problem Solving', 'Leadership'] }
 ];
 
 const AboutPage = () => {
@@ -17,28 +17,25 @@ const AboutPage = () => {
           
           <div className="about-content">
             <div className="about-image">
-              <img src="https://via.placeholder.com/400x500?text=Your+Photo" alt="Profile" />
+              <img src="/profile-pic.JPEG" alt="Profile" />
             </div>
             
             <div className="about-text">
               <h2 className="about-subtitle">My Journey</h2>
               <p>
-                I started my career as a civil engineer, where I developed strong problem-solving skills and attention to detail. 
-                My interest in programming began when I needed to automate repetitive tasks in my engineering work.
+                I began my career as a civil engineer, where I developed strong problem-solving skills and attention to detail. My interest in programming was sparked by the rise of AI in early 2024.
               </p>
               <p>
-                What started as a practical solution quickly grew into a passion. I was fascinated by how programming allowed me to create 
-                solutions from scratch and see immediate results. This led me to pursue formal education in software development and 
-                transition my career toward programming.
+                My initial interaction with AI, which started with simple tasks like deciding what to eat for lunch, gradually evolved into assisting me with report corrections and solving complex engineering problems. 
+                These impressive technologies inspired me to pursue a career that integrates AI into its daily operations, which became the driving force behind my transition into programming.
               </p>
               <p>
-                My engineering background gives me a unique perspective on software development. I approach coding challenges with the same 
-                analytical mindset I used for engineering problems, breaking down complex issues into manageable components and building 
-                robust solutions.
+                My engineering background provides me with a unique perspective on software development. I approach coding challenges with the same analytical mindset 
+                I used to tackle engineering problems, breaking down complex issues into manageable components and building robust solutions.
               </p>
               <p>
-                Today, I focus on creating responsive, user-friendly web applications using modern technologies like React. I'm passionate 
-                about clean code, intuitive user experiences, and continuous learning.
+                Today, I focus on creating responsive, user-friendly web applications using modern technologies like React. 
+                I am passionate about writing clean code, crafting intuitive user experiences, and embracing continuous learning.
               </p>
               
               <div className="about-cta">
@@ -86,10 +83,10 @@ const AboutPage = () => {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <h3 className="timeline-title">Software Developer</h3>
-                <p className="timeline-period">2023 - Present</p>
+                <h3 className="timeline-title">Website Developer</h3>
+                <p className="timeline-period">2025 - Present</p>
                 <p className="timeline-description">
-                  Working as a frontend developer, creating responsive web applications using React and modern JavaScript.
+                  Freelancing as a frontend developer, creating responsive web applications using React and modern technologies such as Cline and more...
                 </p>
               </div>
             </div>
@@ -97,10 +94,10 @@ const AboutPage = () => {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <h3 className="timeline-title">Web Development Bootcamp</h3>
-                <p className="timeline-period">2022 - 2023</p>
+                <h3 className="timeline-title">CS50 and The Odin Project</h3>
+                <p className="timeline-period">2024 - 2025</p>
                 <p className="timeline-description">
-                  Completed an intensive coding bootcamp focusing on full-stack web development.
+                  Completed intensive coding courses focusing on Computer Science and full stack web development.
                 </p>
               </div>
             </div>
@@ -108,10 +105,10 @@ const AboutPage = () => {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <h3 className="timeline-title">Civil Engineer</h3>
-                <p className="timeline-period">2018 - 2022</p>
+                <h3 className="timeline-title">Junior Civil Engineer</h3>
+                <p className="timeline-period">2024 - 2024</p>
                 <p className="timeline-description">
-                  Worked on various construction projects, developing strong problem-solving and analytical skills.
+                  Worked on various projects, developing strong problem-solving and analytical skills.
                 </p>
               </div>
             </div>
@@ -120,9 +117,9 @@ const AboutPage = () => {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Bachelor's Degree in Civil Engineering</h3>
-                <p className="timeline-period">2014 - 2018</p>
+                <p className="timeline-period">2019 - 2024</p>
                 <p className="timeline-description">
-                  Graduated with honors, with a focus on structural engineering and project management.
+                  Graduated with honors, with a focus on geotechnical engineering and project management.
                 </p>
               </div>
             </div>

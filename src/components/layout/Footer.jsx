@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h4 className="footer-title">Portfolio</h4>
+            <h4 className="footer-title">James Wu</h4>
             <p className="footer-description">
-              A showcase of my journey from civil engineering to programming.
+              A showcase of my journey from civil engineering to software development, highlighting my skills in React, Firebase, and modern web technologies.
             </p>
           </div>
           
@@ -30,7 +30,7 @@ const Footer = () => {
             <h4 className="footer-title">Connect</h4>
             <div className="social-links">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/jameswuu" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="social-link"
@@ -41,7 +41,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/" 
+                href="https://www.linkedin.com/in/jameswuu/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="social-link"
@@ -59,7 +59,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; {currentYear} Portfolio. All rights reserved.
+            &copy; {currentYear} James Wu. All rights reserved.
           </p>
           <p className="built-with">
             Built with React and ❤️

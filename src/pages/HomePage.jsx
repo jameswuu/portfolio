@@ -35,10 +35,11 @@ const HomePage = () => {
               <div className="skills-tags">
                 <span className="skill-tag">React</span>
                 <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">CSS</span>
-                <span className="skill-tag">HTML</span>
-                <span className="skill-tag">Responsive Design</span>
-                <span className="skill-tag">Git</span>
+                <span className="skill-tag">Firebase</span>
+                <span className="skill-tag">HTML/CSS</span>
+                <span className="skill-tag">AWS</span>
+                <span className="skill-tag">Git/GitHub</span>
+                <span className="skill-tag">Problem Solving</span>
               </div>
             </div>
           </div>

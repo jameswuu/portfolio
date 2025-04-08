@@ -36,7 +36,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
-            <span className="logo-text">Portfolio</span>
+            <span className="logo-text">James Wu</span>
           </Link>
           
           <button 

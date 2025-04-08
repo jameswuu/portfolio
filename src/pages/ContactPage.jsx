@@ -3,7 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import '../styles/components/contact.css';
 
 const ContactPage = () => {
-  const [state, handleSubmit] = useForm("xyyqpqvd"); // Replace with your Formspree form ID
+  const [state, handleSubmit] = useForm("xjkypwwq");
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -53,7 +53,7 @@ const ContactPage = () => {
                   </div>
                   <div className="contact-detail">
                     <h3 className="contact-method-title">Email</h3>
-                    <p className="contact-method-value">your.email@example.com</p>
+                    <p className="contact-method-value">jameswlb01@gmail.com</p>
                   </div>
                 </div>
                 
@@ -66,7 +66,7 @@ const ContactPage = () => {
                   </div>
                   <div className="contact-detail">
                     <h3 className="contact-method-title">Location</h3>
-                    <p className="contact-method-value">City, Country</p>
+                    <p className="contact-method-value">Hong Kong</p>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const ContactPage = () => {
                 <h3 className="contact-social-title">Find me on</h3>
                 <div className="social-links">
                   <a 
-                    href="https://github.com/" 
+                    href="https://github.com/jameswuu" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="social-link"
@@ -86,7 +86,7 @@ const ContactPage = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://linkedin.com/" 
+                    href="https://www.linkedin.com/in/jameswuu/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="social-link"

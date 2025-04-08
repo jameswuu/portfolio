@@ -98,6 +98,7 @@ button, .button {
 
 button:hover, .button:hover {
   background-color: var(--color-primary);
+  color: var(--color-text-light);
   transform: translateY(-2px);
 }
 
@@ -125,6 +126,7 @@ button:active, .button:active {
 
 .main-content {
   flex: 1;
+  margin-top: 15px;
 }
 
 .container {
@@ -132,6 +134,10 @@ button:active, .button:active {
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: 0 var(--spacing-md);
+}
+
+.section-title{
+  text-align: left;
 }
 
 .container-narrow {

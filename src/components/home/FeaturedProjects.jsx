@@ -1,35 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/components/projects.css';
+import projectsData from '../../data/projectsData';
 
-// This is a placeholder for project data
-// In a real application, this would come from a database or API
-const featuredProjects = [
-  {
-    id: 1,
-    title: 'Project One',
-    description: 'A brief description of the first project. This is a placeholder that you can replace with your actual project details.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    imageUrl: 'https://via.placeholder.com/600x400?text=Project+One',
-    featured: true
-  },
-  {
-    id: 2,
-    title: 'Project Two',
-    description: 'A brief description of the second project. This is a placeholder that you can replace with your actual project details.',
-    technologies: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: 'https://via.placeholder.com/600x400?text=Project+Two',
-    featured: true
-  },
-  {
-    id: 3,
-    title: 'Project Three',
-    description: 'A brief description of the third project. This is a placeholder that you can replace with your actual project details.',
-    technologies: ['React', 'Firebase', 'Tailwind CSS'],
-    imageUrl: 'https://via.placeholder.com/600x400?text=Project+Three',
-    featured: true
-  }
-];
+// Filter only featured projects
+const featuredProjects = projectsData.filter(project => project.featured);
 
 const FeaturedProjects = () => {
   return (
@@ -44,9 +19,12 @@ const FeaturedProjects = () => {
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
               <div className="project-technologies">
-                {project.technologies.map((tech, index) => (
+                {project.technologies.slice(0, 3).map((tech, index) => (
                   <span className="project-technology" key={index}>{tech}</span>
                 ))}
+                {project.technologies.length > 3 && (
+                  <span className="project-technology">+{project.technologies.length - 3} more...</span>
+                )}
               </div>
               <Link to={`/projects/${project.id}`} className="project-link">
                 View Details
