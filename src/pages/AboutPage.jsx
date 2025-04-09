@@ -5,7 +5,7 @@ import '../styles/components/about.css';
 const skills = [
   { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'React', 'Responsive Design'] },
   { category: 'Backend', items: ['Node.js', 'Express', 'RESTful APIs', 'AWS', 'Firebase', 'SQLite', 'NoSQL'] },
-  { category: 'Tools & Others', items: ['Git', 'GitHub', 'VS Code', 'Command Line', 'Cline'] }
+  { category: 'Tools & Others', items: ['Git', 'GitHub', 'Netlify', 'VS Code', 'Command Line', 'Cline'] }
 ];
 
 const AboutPage = () => {

@@ -39,7 +39,7 @@ const HomePage = () => {
                 <span className="skill-tag">HTML/CSS</span>
                 <span className="skill-tag">AWS</span>
                 <span className="skill-tag">Git/GitHub</span>
-                <span className="skill-tag">Problem Solving</span>
+                <span className="skill-tag">And more!</span>
               </div>
             </div>
           </div>
