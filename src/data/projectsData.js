@@ -11,11 +11,11 @@ const projectsData = [
 
       Key features include:
       - User authentication and profiles
-      - Product catalog with search and filtering
+      - Product catalog
       - Shopping cart and checkout process
-      - Order history and tracking
-      - Admin dashboard for inventory management
+      - Order history
 
+      
       Due to partnerships with stakeholders, the source code is not publicly available.
     `,
     liveDemo: 'https://buffalo-keychain.web.app/',
@@ -54,9 +54,7 @@ const projectsData = [
       Key features include:
       - Task creation, editing, and deletion
       - Task categorization and priority levels
-      - Due dates and reminders
-      - Progress tracking and completion statistics
-      - Collaboration features for team tasks
+      - Due dates
     `,
     liveDemo: 'https://fantasktic-1e480.web.app/',
     githubRepo: 'https://github.com/jameswuu/fantasktic'
