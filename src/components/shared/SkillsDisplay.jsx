@@ -12,6 +12,11 @@ import '../../styles/components/skills.css';
  * @param {boolean} props.showTitle - Whether to show the section title (default: true)
  * @param {string} props.title - Custom title for the skills section (default: "My Skills")
  */
+const getProficiencyClass = (proficiency) => {
+  if (proficiency >= 90) return "proficiency-expert";
+  if (proficiency >= 80) return "proficiency-high";
+  return "proficiency-medium";
+};
 
 const SkillsDisplay = ({ 
   displayType = 'bars', 
@@ -39,7 +44,7 @@ const SkillsDisplay = ({
                   <span className="skill-name">{skill.name}</span>
                   <div className="skill-bar">
                     <div 
-                      className="skill-progress" 
+                      className={`skill-progress ${getProficiencyClass(skill.proficiency)}`}
                       style={{ width: `${skill.proficiency}%` }}
                     ></div>
                   </div>

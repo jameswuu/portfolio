@@ -44,10 +44,22 @@
 
 .skill-progress {
   height: 100%;
-  background-color: var(--color-accent);
   border-radius: var(--border-radius-full);
   transition: width 0.5s ease-in-out;
 }
+
+.skill-progress.proficiency-medium {
+  background: linear-gradient(to right, #b0dbff 0%, #43aafe 50%, #41a0ff 70%, #2592ff 100%); 
+}
+
+.skill-progress.proficiency-high {
+  background: linear-gradient(to right, #b0dbff 0%, #43aafe 50%, #41a0ff 70%, #2592ff 80%, #1173d5 100%); 
+}
+
+.skill-progress.proficiency-expert {
+  background: linear-gradient(to right, #b0dbff 0%, #43aafe 50%, #41a0ff 70%, #2592ff 80%, #1173d5 90%, #07519b 100%); 
+}
+
 
 /* Skill tags for compact display */
 .skills-tags {
