@@ -40,48 +40,6 @@
   margin-top: var(--spacing-xl);
 }
 
-/* Skills section */
-.skills-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-xl);
-}
-
-.skill-category {
-  font-size: var(--font-size-lg);
-  margin-bottom: var(--spacing-md);
-  color: var(--color-primary);
-}
-
-.skill-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.skill-item {
-  margin-bottom: var(--spacing-md);
-}
-
-.skill-name {
-  display: block;
-  font-weight: var(--font-weight-medium);
-  margin-bottom: var(--spacing-xs);
-}
-
-.skill-bar {
-  height: 8px;
-  background-color: var(--color-background-alt);
-  border-radius: var(--border-radius-full);
-  overflow: hidden;
-}
-
-.skill-progress {
-  height: 100%;
-  background-color: var(--color-accent);
-  border-radius: var(--border-radius-full);
-}
-
 /* Timeline section */
 .timeline {
   position: relative;

@@ -10,14 +10,14 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="hero-greeting">Hello, I'm</span>
-            <span className="hero-name">James</span>
+            <span className="hero-name">James Wu</span>
           </h1>
           <p className="hero-subtitle">
-            Civil Engineer turned Developer
+            Crafting Web Experiences with Engineering Precision
           </p>
           <p className="hero-description">
-            I build responsive, user-friendly websites and applications with modern technologies.
-            My engineering background gives me a unique approach to problem-solving and attention to detail.
+          What happens when engineering meets creativity? I build responsive, user-friendly websites and applications fueled by an engineering mindset and a passion for innovation. <Link to="/about" className='link-secondary'>Found out more!</Link>
+
           </p>
           <div className="hero-buttons">
             <Link to="/projects" className="button">View My Projects</Link>

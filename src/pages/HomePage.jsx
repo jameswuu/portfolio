@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/home/Hero';
 import FeaturedProjects from '../components/home/FeaturedProjects';
+import SkillsDisplay from '../components/shared/SkillsDisplay';
 import '../styles/components/home.css';
 
 const HomePage = () => {
@@ -32,15 +33,11 @@ const HomePage = () => {
             </div>
             <div className="about-preview-skills">
               <h3 className="skills-title">My Skills</h3>
-              <div className="skills-tags">
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">Firebase</span>
-                <span className="skill-tag">HTML/CSS</span>
-                <span className="skill-tag">AWS</span>
-                <span className="skill-tag">Git/GitHub</span>
-                <span className="skill-tag">And more!</span>
-              </div>
+              <SkillsDisplay 
+                displayType="tags" 
+                limit={7}
+                showTitle={false}
+              />
             </div>
           </div>
         </div>

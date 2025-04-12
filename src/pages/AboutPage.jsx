@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SkillsDisplay from '../components/shared/SkillsDisplay';
 import '../styles/components/about.css';
-
-const skills = [
-  { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'React', 'Responsive Design'] },
-  { category: 'Backend', items: ['Node.js', 'Express', 'RESTful APIs', 'AWS', 'Firebase', 'SQLite', 'NoSQL'] },
-  { category: 'Tools & Others', items: ['Git', 'GitHub', 'Netlify', 'VS Code', 'Command Line', 'Cline'] }
-];
 
 const AboutPage = () => {
   return (
@@ -53,25 +48,7 @@ const AboutPage = () => {
       
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">My Skills</h2>
-          
-          <div className="skills-container">
-            {skills.map((skillGroup, index) => (
-              <div className="skill-group" key={index}>
-                <h3 className="skill-category">{skillGroup.category}</h3>
-                <ul className="skill-list">
-                  {skillGroup.items.map((skill, skillIndex) => (
-                    <li className="skill-item" key={skillIndex}>
-                      <span className="skill-name">{skill}</span>
-                      <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: `${Math.random() * 40 + 60}%` }}></div>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+          <SkillsDisplay displayType="bars" />
         </div>
       </section>
       

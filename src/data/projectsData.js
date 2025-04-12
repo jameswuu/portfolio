@@ -27,7 +27,7 @@ const projectsData = [
     description: 'A multiple-choice quiz platform offering real-time scoring, performance analytics, and leaderboards.',
     technologies: ['React', 'Vite', 'React Router', 'Firebase Hosting', 'Firestore', 'Firebase Authentication', 'Responsive Design'],
     imageUrl: '/project2.png',
-    featured: false,
+    featured: true,
     fullDescription: `
       Quizasy is a website designed to make quizzes easy and engaging. Built with React for the frontend and Firebase for the backend, it uses GitHub Actions for CI/CD workflow automation.
 
@@ -83,7 +83,7 @@ const projectsData = [
     description: 'A countdown timer application built with HTML, CSS, and JavaScript.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     imageUrl: '/project5.png',
-    featured: true,
+    featured: false,
     fullDescription: `
       This countdown timer demonstrates basic web development skills using HTML, CSS, and JavaScript. It provides a simple interface for users to set and track countdowns.
 

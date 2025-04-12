@@ -27,23 +27,6 @@
   margin-bottom: var(--spacing-md);
 }
 
-.skills-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-sm);
-}
-
-.skill-tag {
-  display: inline-block;
-  background-color: var(--color-background-alt);
-  color: var(--color-primary);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  padding: var(--spacing-xs) var(--spacing-md);
-  border-radius: var(--border-radius-full);
-  border: 1px solid var(--color-border);
-}
-
 /* CTA section */
 .cta-section {
   text-align: center;
