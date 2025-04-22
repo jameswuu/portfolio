@@ -35,7 +35,7 @@ const ContactPage = () => {
         <div className="container">
           <h1 className="section-title">Get in Touch</h1>
           
-          <div className="contact-content">
+          <div className="contact-content anim">
             <div className="contact-info">
               <h2 className="contact-subtitle">Let's Connect</h2>
               <p className="contact-text">

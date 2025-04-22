@@ -9,7 +9,7 @@ const ProjectsPage = () => {
       <section className="section">
         <div className="container">
           <h1 className="section-title">My Projects</h1>
-          <p className="section-description">
+          <p className="section-description anim">
             Below is a showcase of my recent projects, each demonstrating different aspects of my technical skills and problem-solving abilities.
             From web applications built with React and Firebase to smaller projects highlighting core web development fundamentals,
             this portfolio reflects my journey from civil engineering to software development.
@@ -17,7 +17,7 @@ const ProjectsPage = () => {
           
           <div className="projects-grid">
             {projectsData.map(project => (
-              <div className="project-card" key={project.id}>
+              <div className="project-card anim" key={project.id}>
                 <div className="project-image">
                   <img src={project.imageUrl} alt={project.title} />
                 </div>

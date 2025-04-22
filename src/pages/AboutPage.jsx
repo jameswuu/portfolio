@@ -11,11 +11,11 @@ const AboutPage = () => {
           <h1 className="section-title">About Me</h1>
           
           <div className="about-content">
-            <div className="about-image">
+            <div className="about-image anim-left">
               <img src="/profile-pic.JPEG" alt="Profile" />
             </div>
             
-            <div className="about-text">
+            <div className="about-text anim-right">
               <h2 className="about-subtitle">My Journey</h2>
               <p>
                 I began my career as a civil engineer, where I developed strong problem-solving skills and attention to detail. My interest in programming was sparked by the rise of AI in early 2024.
@@ -33,7 +33,7 @@ const AboutPage = () => {
                 I am passionate about writing clean code, crafting intuitive user experiences, and embracing continuous learning.
               </p>
               
-              <div className="about-cta">
+              <div className="about-cta anim-right">
                 <a href="/resume.pdf" className="button" download>
                   Download Resume
                 </a>
@@ -58,10 +58,10 @@ const AboutPage = () => {
           
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-marker"></div>
+              <div className="timeline-marker current"></div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Website Developer</h3>
-                <p className="timeline-period">2025 - Present</p>
+                <p className="timeline-period">2025 - Current</p>
                 <p className="timeline-description">
                   Freelancing as a frontend developer, creating responsive web applications using React and modern technologies such as Cline and more...
                 </p>

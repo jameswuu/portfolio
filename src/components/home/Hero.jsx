@@ -8,18 +8,18 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">
+          <h1 className="hero-title anim">
             <span className="hero-greeting">Hello, I'm</span>
             <span className="hero-name">James Wu</span>
           </h1>
-          <p className="hero-subtitle">
+          <p className="hero-subtitle anim">
             Crafting Web Experiences with Engineering Precision
           </p>
-          <p className="hero-description">
+          <p className="hero-description anim">
           What happens when engineering meets creativity? I build responsive, user-friendly websites and applications fueled by an engineering mindset and a passion for innovation. <Link to="/about" className='link-secondary'>Found out more!</Link>
 
           </p>
-          <div className="hero-buttons">
+          <div className="hero-buttons anim">
             <Link to="/projects" className="button">View My Projects</Link>
             <Link to="/contact" className="button button-secondary">Get in Touch</Link>
           </div>

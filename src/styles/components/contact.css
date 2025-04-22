@@ -171,3 +171,21 @@
     order: 1;
   }
 }
+
+/* Animation */
+.anim{
+  opacity: 0;
+  transform: translateY(30px);
+  animation-name: moveup;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes moveup{
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

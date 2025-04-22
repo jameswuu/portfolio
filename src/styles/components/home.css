@@ -81,3 +81,18 @@
     font-size: var(--font-size-md);
   }
 }
+
+@media (prefers-reduced-motion: no-preference){
+  .home-page .section .container{
+    scale: 0.8;
+    opacity: 0.5;
+    animation: fade-in linear;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: 200px 500px;
+  }
+  
+  @keyframes fade-in {
+    to { scale: 1; opacity: 1;}
+  }
+}
