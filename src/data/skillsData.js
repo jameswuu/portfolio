@@ -6,6 +6,7 @@ const skillsData = [
       { name: 'HTML', proficiency: 85 },
       { name: 'CSS', proficiency: 80 },
       { name: 'JavaScript', proficiency: 85 },
+      { name: 'TypeScript', proficiency: 75 },
       { name: 'Responsive Design', proficiency: 80 },
       { name: 'React', proficiency: 80 }
     ]
